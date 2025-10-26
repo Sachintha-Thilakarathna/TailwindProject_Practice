@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   </head>
   <body>
     <nav class="bg-gray-900 text-blue-500 flex justify-between px-12 py-7 items-center">
         <span>
-            <h1 class="text-2xl font-bold ">MyBrand</h1>
+            <h1 class="text-2xl font-bold">MyBrand</h1>
         </span>
-        <ul class="text-white flex gap-4">
+        <ul class="text-white flex gap-4 md:flex hidden justify-between ">
             <li class="hover:text-blue-500"><a href="">Activty 01</a></li>
             <li class="hover:text-blue-500"><a href="">Activty 02</a></li>
             <li class="hover:text-blue-500"><a href="">Activty 03</a></li>
             <li class="hover:text-blue-500"><a href="">Activty 04</a></li>
             <li class="hover:text-blue-500"><a href="">Activty 05</a></li>
-            
         </ul>
+        <div class="md:hidden text-white">
+        <i class="fa-solid fa-bars"></i>
+        </div>
     </nav>
+
+  
   </body>
 </html>
