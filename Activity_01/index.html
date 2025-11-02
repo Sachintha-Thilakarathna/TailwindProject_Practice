@@ -12,18 +12,29 @@
         <span>
             <h1 class="text-2xl font-bold">MyBrand</h1>
         </span>
-        <ul class="text-white flex gap-4 md:flex hidden justify-between ">
+        <ul class="text-white flex gap-4 md:flex hidden justify-between">
             <li class="hover:text-blue-500 duration-500"><a href="./index.html">Activty 01</a></li>
             <li class="hover:text-blue-500 duration-500"><a href="../Activity_02/index.html">Activty 02</a></li>
             <li class="hover:text-blue-500 duration-500"><a href="../Activity_03/index.html">Activty 03</a></li>
             <li class="hover:text-blue-500 duration-500"><a href="../Activity_04/index.html">Activty 04</a></li>
             <li class="hover:text-blue-500 duration-500"><a href="../Activity_05/index.html">Activty 05</a></li>
         </ul>
-        <div class="md:hidden text-white">
+        <div class="md:hidden text-white relative" onclick="mobile">
         <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
     <!-- Nav End -->
+
+     <!-- Moble Menu -->
+      <div class="absolute right-0  flex justify-center h-40 w-30 bg-blue-500 hidden" id="menuDiv">
+            <ul class="text-white flex flex-col gap-4  md:hidden justify-between ">
+              <li class="hover:text-blue-500 duration-500 underline"><a href="./index.html">Activty 01</a></li>
+              <li class="hover:text-blue-500 duration-500 underline"><a href="../Activity_02/index.html">Activty 02</a></li>
+              <li class="hover:text-blue-500 duration-500 underline"><a href="../Activity_03/index.html">Activty 03</a></li>
+              <li class="hover:text-blue-500 duration-500 underline"><a href="../Activity_04/index.html">Activty 04</a></li>
+              <li class="hover:text-blue-500 duration-500 underline"><a href="../Activity_05/index.html">Activty 05</a></li>
+            </ul>
+          </div>
 
     <!-- Text -->
     <div class="px-10 py-10">
@@ -53,5 +64,6 @@
 
   </div>
 
+    <script src="./js/style.js"></script>
   </body>
 </html>
